@@ -60,12 +60,12 @@
 	margin-left: 30px;
 }
 
-.projectTecnologiesList li::marker,
+.projecttechnologiesList li::marker,
 .projectDescriptionList li::marker {
     font-size: 16px; /* Adjust the value (e.g., px, em, %) to your preference */
 }
 
-.projectTecnologiesList {
+.projecttechnologiesList {
   	list-style-type: disc; /* Use 'circle' or 'square' for different styles */
 	margin-left: 30px;
 }

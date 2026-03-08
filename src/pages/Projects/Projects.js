@@ -179,7 +179,7 @@ export default class Projects extends React.Component {
 
                                         <h4>{this.translate.eden2012ERP.technologies.title}</h4>
 
-                                        <ul className={styles.projectTecnologiesList}>
+                                        <ul className={styles.projecttechnologiesList}>
                                             <li>{this.translate.eden2012ERP.technologies.point1}</li>
                                             <li>{this.translate.eden2012ERP.technologies.point2}</li>
                                             <li>{this.translate.eden2012ERP.technologies.point3}</li>
@@ -246,7 +246,7 @@ export default class Projects extends React.Component {
 
                                         <h4 className={`${styles.marginTop10}`}>{this.translate.justMusicMobile.technologies.title}</h4>
 
-                                        <ul className={`${styles.projectTecnologiesList}`}>
+                                        <ul className={`${styles.projecttechnologiesList}`}>
                                             <li>{this.translate.justMusicMobile.technologies.point1}</li>
                                             <li>{this.translate.justMusicMobile.technologies.point2}</li>
                                             <li>{this.translate.justMusicMobile.technologies.point3}</li>
@@ -311,7 +311,7 @@ export default class Projects extends React.Component {
 
                                         <h4 className={`${styles.marginTop10}`}>{this.translate.eden2012WebsiteBusinessCard.technologies.title}</h4>
 
-                                        <ul className={`${styles.projectTecnologiesList}`}>
+                                        <ul className={`${styles.projecttechnologiesList}`}>
                                             <li>{this.translate.eden2012WebsiteBusinessCard.technologies.point1}</li>
                                             <li>{this.translate.eden2012WebsiteBusinessCard.technologies.point2}</li>
                                             <li>{this.translate.eden2012WebsiteBusinessCard.technologies.point3}</li>

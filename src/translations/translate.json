@@ -47,10 +47,10 @@
         "careerPage": {
             "title": "Кар'єра",
             "job1": {
-                "period": "Листопад 2019 - Січень 2020",
-                "position": "Стажування в IT Craft на посаді back-end розробника.",
-                "description": "Розробка серверної частини для веб сайту з дерматології. Отримав цінний досвід в побудові рішень з використанням мікросервісної архітектури, що забезпечило модульність проекту, високу надійність в підтримці та адаптивність. ВЕБ-застосунок будувався із чистого аркушу.",
-                "tecnologies": {
+                "period": "Листопад 2019 - Січень 2020.",
+                "position": "Стажування в IT Craft на посаді backend .NET розробника.",
+                "description": "Брав участь в початковому етапі розробки серверної частини для веб-сайту з дерматології. Отримав цінний досвід у побудові рішень з використанням мікросервісної архітектури, що забезпечило модульність проекту, високу надійність у підтримці та адаптивність.",
+                "technologies": {
                     "title": "Технології, які використовувались",
                     "point1": "ASP.NET Core 3 WEB API",
                     "point2": "MSSQL Server",
@@ -62,17 +62,33 @@
                 },
                 "keyResponsibilitiesAchievements": {
                     "title": "Обов'язки та досягнення",
-                    "point1": "Брав участь в розробці бекенду для RBAC (керування доступу на основі ролей).",
+                    "point1": "Реалізовував бекенд для RBAC (керування доступу на основі ролей).",
                     "point2": "Розробляв модуль файлової систему проекту (робота із зображеннями та відео).",
-                    "point3": "Брав участь в розробці back-end частини бізнес логіки."
+                    "point3": "Брав участь в розробці backend частини бізнес логіки."
                 }
             },
-
-            "about1":"Я почав працювати в 2019 році по спеціальності 'Комп'ютерне програмування'. Займався розробкою програмного забезпечення під замовлення.",
-            "about2":"Основною спеціалізацією є розробка веб додатків від найпростіших до найскладніших за масштабом та бізнес логікою. Одним із перших таких проектів була розробка серверної частити для веб сайту з дерматології, з використанням технологій ASP.NET Core 3 WEB API, Dapper та MSSQL Server. Мікросервісна архітектура допомогла зробити цей проект модульним та простим для модифікацій у майбутньому.",
-            "about3":"Другий проект був для американської компанії, яка замалася зберіганням та доставками їжі. Дуже великий проект, де була робота не тільки на серверній частині, а й на стороні клієнта (браузер). Використовувались технології ASP.NET MVC 5, ASP.NET WEB API, Angular 5, Angular Material, Dapper та архітектура onion. Крім того, для підтримки автотестів ми використовували фреймворки Selenium і Atata.",
-            "about4":"Темою наступного проекту була логістика для одягу від складів до магазинів. Цей веб додаток допомагає підвищити ефективність продажу товарів. Дуже цікавий проект із сучасними технологіями, версії яких постійно оновлювалися. Для розробки використовувались Angular, Angular Material, ASP.NET WEB API Core, ADO.NET, MSSQL Server, Entity Framework, SignalR та Azure Services.",
-            "aboutCEO":"У 2016 році я почав навчатись в Харківському політехнічному інституті за спеціальністю 'Комп'ютерна інженерія'. Отримав диплом бакалавра в 2020 році, а 23 грудня 2021 року отримав диплом магістра. Працюю у сфері комп'ютерного програмування з 2019 року як .Net розробник повного стека."
+            "job2": {
+                "period": "Лютий 2020 - Лютий 2021.",
+                "position": ".NET розробник повного стеку.",
+                "description": "Розробка нового функціоналу та підтримка існуючого для великї ERP системи, яка складалася із декількох частин: облік продуктів та вантажівок, логістика товарів із точки А до точки Б, склади зберігання продуктів та багато іншого. Onion архітектура допомогла зробити проект модульним та легким для модифікації в майбутньому.",
+                "technologies": {
+                    "title": "Технології, які використовувались",
+                    "point1": "ASP .NET MVC 5",
+                    "point2": "ASP .NET WEB API",
+                    "point3": "Dapper/ADO.NET",
+                    "point4": "PostgreSQL",
+                    "point5": "Angular 5",
+                    "point6": "Angular Material/Bootstrap",
+                    "point7": "Selenium/Atata",
+                    "point8": "Docker"
+                },
+                "keyResponsibilitiesAchievements": {
+                    "title": "Обов'язки та досягнення",
+                    "point1": "Розробка нового функціоналу, в ролі Full Stack розробника.",
+                    "point2": "Підтримка існуючого функціоналу.",
+                    "point3": "Розробка та підтримка UI автотестів."
+                }
+            }
         },
         "eden2012ERP": {
             "title": "Eden 2012 ERP система",
@@ -183,11 +199,11 @@
         "careerPage": {
             "title": "Career",
             "job1": {
-                "period": "November 2019 - Січень 2020",
-                "position": "Стажування в IT Craft на посаді back-end розробника.",
-                "description": "Розробка серверної частини для веб сайту з дерматології. Отримав цінний досвід в побудові рішень з використанням мікросервісної архітектури, що забезпечило модульність проекту, високу надійність в підтримці та адаптивність. ВЕБ-застосунок будувався із чистого аркушу.",
-                "tecnologies": {
-                    "title": "Технології, які використовувались",
+                "period": "November 2019 - January 2020.",
+                "position": "Internship in IT Craft as a back-end developer.",
+                "description": "Participated in the initial stage of developing the backend for a dermatology website. Gained valuable experience in building solutions using microservice architecture, which ensured the project's modularity, high reliability in support, and adaptability.",
+                "technologies": {
+                    "title": "Technologies used",
                     "point1": "ASP.NET Core 3 WEB API",
                     "point2": "MSSQL Server",
                     "point3": "MySQL",
@@ -197,17 +213,34 @@
                     "point7": "Minio"
                 },
                 "keyResponsibilitiesAchievements": {
-                    "title": "Обов'язки та досягнення",
-                    "point1": "Брав участь в розробці бекенду для RBAC (керування доступу на основі ролей).",
-                    "point2": "Розробляв модуль файлової систему проекту (робота із зображеннями та відео).",
-                    "point3": "Брав участь в розробці back-end частини бізнес логіки."
+                    "title": "Key responsibilities and achievements",
+                    "point1": "Implemented backend for RBAC (role-based access control).",
+                    "point2": "Developed the project's file system module (working with images and videos).",
+                    "point3": "Participated in the development of the backend part of the business logic."
                 }
             },
-            "about1":"I started working in 2019 in the specialty 'Computer programming'. I have been engaged in custom software development since the beginning of my career.",
-            "about2":"The development of web applications from the simplest to the most complex in scale and business logic is my main specialization. The development of the server part for a website for dermatology was one of the first such projects, using ASP.NET Core 3 WEB API technologies, Dapper and MSSQL Server. The microservices architecture helped make this project modular and easy to modify in the future.",
-            "about3":"The second project was for an American company that was involved in food storage and delivery. A very large project, where work was not only on the server side, but also on the client side (browser). We used ASP.NET MVC 5, ASP .NET WEB API, Angular 5, Angular Material, Dapper and onion architecture. Besides, we used Selenium and Atata frameworks to support autotests.",
-            "about4":"The topic of the next project was logistics for clothes from warehouses to stores. This web application helps to increase the efficiency of the sale of goods. A very interesting project with modern technologies, the versions of which were constantly updated. We used for development Angular, Angular Material, ASP.NET WEB API Core, ADO.NET, MSSQL Server, Entity Framework, SignalR and Azure Services.",
-            "aboutCEO":"I began studying at the Kharkiv Polytechnic Institute majoring in Computer Engineering in 2016. Received a bachelor's degree in 2020, and received a master's degree on December 23, 2021. I have been working in the field of computer programming since 2019 as a .Net full-stack developer."
+            "job2": {
+                "period": "February 2020 - February 2021.",
+                "position": "Full Stack .NET Developer.",
+                "description": "New functionality development and maintaining existing functionality for a large ERP system, which consisted of several parts: product and truck accounting, goods logistics from point A to point B, storage warehouses, and much more. The Onion architecture helped make the project modular and easy to modify in the future.",
+                "technologies": {
+                    "title": "Technologies used",
+                    "point1": "ASP .NET MVC 5",
+                    "point2": "ASP .NET WEB API",
+                    "point3": "Dapper/ADO.NET",
+                    "point4": "PostgreSQL",
+                    "point5": "Angular 5",
+                    "point6": "Angular Material/Bootstrap",
+                    "point7": "Selenium/Atata",
+                    "point8": "Docker"
+                },
+                "keyResponsibilitiesAchievements": {
+                    "title": "Key responsibilities and achievements",
+                    "point1": "New functionality development as a Full Stack Developer.",
+                    "point2": "Maintaining existing functionality.",
+                    "point3": "Developing and maintaining UI automated tests."
+                }
+            }
         },
         "eden2012ERP": {
             "title": "Eden 2012 ERP system",
