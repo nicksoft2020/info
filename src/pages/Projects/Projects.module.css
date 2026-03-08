@@ -72,12 +72,11 @@
 }
 
 .projectContent {
-	display: flex;
-	border-radius: 10px;
-	padding: 10px;
-	font-size: 14px;
-	margin-top: 10px;
-	min-height: 220px;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px 0px 30px;
+    font-size: 14px;
+    min-height: 220px;
 }
 
 .projectVideo {
@@ -102,8 +101,8 @@
 		height: 600px;
 	}
 
-	.videoFile {
-		width: 280px;
+	.projectVideo {
+		width: 80vw;
 	}
 
 	.projectContent {
@@ -119,7 +118,7 @@
 
 @media(max-width: 700px) {
 	.videoFile {
-		width: 280px;
+		height: 300px;
 	}
 
 	.projectContent {
@@ -130,10 +129,5 @@
 @media(max-width: 500px) {
 	.projectBlock {
 		padding-bottom: 15px;
-	}
-
-	.projectList {
-		margin-top: 20px;
-		height: fit-content;
 	}
 }
