@@ -46,8 +46,6 @@
         "phoneLengthError": "Довжина значення становить 12 цифр.",
         "emailSentSuccess": "Повідомлення надіслано",
         "emailSentError": "Помилка на сервері. Будь ласка спробуйте пізніше",
-        "eden2012WebsiteBusinessCard": "Eden 2012 (сайт-візитка)",
-        "eden2012WebsiteBusinessCardDescription": "Звичайний сайт-візитка для фермерського господарства Eden 2012 із описом бізнесу та контактною інформацією.",
         "mobileServiceTitle": "Розробка мобільних застосунків",
         "mobileServiceDescription": "Вам потрібен мобільний застосунок? Для розробки програм під смартфони ми використовуємо React Native технологію та бібліотеку React Native Paper. Ці інструменти дають можливість реалізовувати мобільні застосунки із сучасним дизайном та швидким функціоналом.",
         "error404": "Сторінка, яку ви шукали, могла бути видалена через зміну назви або тимчасову недоступність.",
@@ -70,7 +68,8 @@
                 "point2": "Material UI",
                 "point3": "ASP.NET WEB API Core (.NET 8)",
                 "point4": "MSSQL Server",
-                "point5": "SignalR"
+                "point5": "SignalR",
+                "point6": "Локалізація на українську та англійську."
              }
         },
         "justMusicMobile": {
@@ -93,6 +92,22 @@
                 "point4": "React Native",
                 "point5": "React Native Paper",
                 "point6": "React Native track player"
+            }
+        },
+        "eden2012WebsiteBusinessCard": {
+            "title": "Eden 2012 (сайт-візитка)",
+            "generalDescription": "Сайт-візитка для фермерського бізнесу Eden 2012 з описом компанії, контактною формою та інформацією.",
+            "functionality": {
+                "title": "Основний функціонал",
+                "point1": "Сучасний дизайн та адаптивність для різних пристроїв.",
+                "point2": "Контактна форма",
+                "point3": "Локалізація на українську та англійську."
+            },
+            "technologies": {
+                "title": "Технології, які використовувались",
+                "point1": "React 18",
+                "point2": "JavaScript",
+                "point3": "HTML/CSS"
             }
         }
     },
@@ -142,9 +157,7 @@
         "phoneLengthError": "The length of the value is 12 digits.",
         "emailSentSuccess": "Message was sent",
         "emailSentError": "There is server error. Please try later.",
-        "eden2012WebsiteBusinessCard": "Eden 2012 (business card website)",
         "link": "link",
-        "eden2012WebsiteBusinessCardDescription": "The original business card website for the farming business of Eden 2012 with a description and contact information.",
         "mobileServiceTitle": "Mobile applications development",
         "mobileServiceDescription": "Do you need a mobile app? We use React Native technology and the React Native Paper library to develop apps for smartphones. These tools make it possible to implement mobile applications with modern design and fast functionality.",
         "error404": "The page you were looking for might have been removed had it's name changed or temporary unavailable.",
@@ -158,7 +171,8 @@
                 "point2": "Planning sowing campaigns and saving season history for further analysis.",
                 "point3": "Generating PDF reports for each season.",
                 "point4": "Analyzing profitability and yield using charts.",
-                "point5": "Role-based access control (RBAC)."
+                "point5": "Role-based access control (RBAC).",
+                "point6": "Localization in Ukrainian and English languages."
             },
             "architecturalDescription": "The system is built following Clean Architecture principles, ensuring strict separation of concerns through dedicated layers for Domain, Application Services, and Infrastructure (Repositories).",
             "technologies": {
@@ -190,6 +204,22 @@
                 "point4": "React Native",
                 "point5": "React Native Paper",
                 "point6": "React Native track player"
+            }
+        },
+        "eden2012WebsiteBusinessCard": {
+            "title": "Eden 2012 (business card website)",
+            "generalDescription": "Business card website for the farming business of Eden 2012 with a company description, contact form and information.",
+            "functionality": {
+                "title": "Basic functionality",
+                "point1": "Modern design and responsiveness for different devices.",
+                "point2": "Contact form",
+                "point3": "Localization in Ukrainian and English."
+            },
+            "technologies": {
+                "title": "Technologies used",
+                "point1": "React 18",
+                "point2": "JavaScript",
+                "point3": "HTML/CSS"
             }
         }
     }
