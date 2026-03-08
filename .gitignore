@@ -25,3 +25,5 @@ yarn-error.log*
 /.vs
 
 /.vs/info/v17/.wsuo
+/.vs/slnx.sqlite
+/src/index.css
