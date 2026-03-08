@@ -7,7 +7,7 @@ import About from './pages/About';
 import FourOhFour from './pages/FourOhFour';
 import Contacts from './pages/Contacts';
 import Translate from './translations/translate.json';
-import Projects from './pages/Projects';
+import Projects from './pages/Projects/Projects';
 
 class App extends React.Component {
 	constructor(props) {
