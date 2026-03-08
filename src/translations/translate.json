@@ -46,6 +46,28 @@
         "backBtn": "Назад",
         "careerPage": {
             "title": "Кар'єра",
+            "job1": {
+                "period": "Листопад 2019 - Січень 2020",
+                "position": "Стажування в IT Craft на посаді back-end розробника.",
+                "description": "Розробка серверної частини для веб сайту з дерматології. Отримав цінний досвід в побудові рішень з використанням мікросервісної архітектури, що забезпечило модульність проекту, високу надійність в підтримці та адаптивність. ВЕБ-застосунок будувався із чистого аркушу.",
+                "tecnologies": {
+                    "title": "Технології, які використовувались",
+                    "point1": "ASP.NET Core 3 WEB API",
+                    "point2": "MSSQL Server",
+                    "point3": "MySQL",
+                    "point4": "Dapper",
+                    "point5": "Docker",
+                    "point6": "MQTT",
+                    "point7": "Minio"
+                },
+                "keyResponsibilitiesAchievements": {
+                    "title": "Обов'язки та досягнення",
+                    "point1": "Брав участь в розробці бекенду для RBAC (керування доступу на основі ролей).",
+                    "point2": "Розробляв модуль файлової систему проекту (робота із зображеннями та відео).",
+                    "point3": "Брав участь в розробці back-end частини бізнес логіки."
+                }
+            },
+
             "about1":"Я почав працювати в 2019 році по спеціальності 'Комп'ютерне програмування'. Займався розробкою програмного забезпечення під замовлення.",
             "about2":"Основною спеціалізацією є розробка веб додатків від найпростіших до найскладніших за масштабом та бізнес логікою. Одним із перших таких проектів була розробка серверної частити для веб сайту з дерматології, з використанням технологій ASP.NET Core 3 WEB API, Dapper та MSSQL Server. Мікросервісна архітектура допомогла зробити цей проект модульним та простим для модифікацій у майбутньому.",
             "about3":"Другий проект був для американської компанії, яка замалася зберіганням та доставками їжі. Дуже великий проект, де була робота не тільки на серверній частині, а й на стороні клієнта (браузер). Використовувались технології ASP.NET MVC 5, ASP.NET WEB API, Angular 5, Angular Material, Dapper та архітектура onion. Крім того, для підтримки автотестів ми використовували фреймворки Selenium і Atata.",
@@ -160,6 +182,27 @@
         "backBtn": "Back",
         "careerPage": {
             "title": "Career",
+            "job1": {
+                "period": "November 2019 - Січень 2020",
+                "position": "Стажування в IT Craft на посаді back-end розробника.",
+                "description": "Розробка серверної частини для веб сайту з дерматології. Отримав цінний досвід в побудові рішень з використанням мікросервісної архітектури, що забезпечило модульність проекту, високу надійність в підтримці та адаптивність. ВЕБ-застосунок будувався із чистого аркушу.",
+                "tecnologies": {
+                    "title": "Технології, які використовувались",
+                    "point1": "ASP.NET Core 3 WEB API",
+                    "point2": "MSSQL Server",
+                    "point3": "MySQL",
+                    "point4": "Dapper",
+                    "point5": "Docker",
+                    "point6": "MQTT",
+                    "point7": "Minio"
+                },
+                "keyResponsibilitiesAchievements": {
+                    "title": "Обов'язки та досягнення",
+                    "point1": "Брав участь в розробці бекенду для RBAC (керування доступу на основі ролей).",
+                    "point2": "Розробляв модуль файлової систему проекту (робота із зображеннями та відео).",
+                    "point3": "Брав участь в розробці back-end частини бізнес логіки."
+                }
+            },
             "about1":"I started working in 2019 in the specialty 'Computer programming'. I have been engaged in custom software development since the beginning of my career.",
             "about2":"The development of web applications from the simplest to the most complex in scale and business logic is my main specialization. The development of the server part for a website for dermatology was one of the first such projects, using ASP.NET Core 3 WEB API technologies, Dapper and MSSQL Server. The microservices architecture helped make this project modular and easy to modify in the future.",
             "about3":"The second project was for an American company that was involved in food storage and delivery. A very large project, where work was not only on the server side, but also on the client side (browser). We used ASP.NET MVC 5, ASP .NET WEB API, Angular 5, Angular Material, Dapper and onion architecture. Besides, we used Selenium and Atata frameworks to support autotests.",
