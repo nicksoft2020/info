@@ -125,14 +125,14 @@ export default class Projects extends React.Component {
                 <div className={styles.projectList}>
                     <div className={`${styles.projectSection} ${styles.primaryBackground}`}>
                         <div className={styles.projectBlock}>
-                            <FadeInSection>
+                            <FadeInSection direction="fade-bottom">
                                 <div className={styles.projectTitle}>
                                     {this.translate.eden2012ERP.title}
                                 </div>
                             </FadeInSection>
 
                             <div className={styles.projectContent}>
-                                <FadeInSection>
+                                <FadeInSection direction="fade-left">
                                     <div className={styles.projectVideo}>
                                         { 
                                             this.state.language === 'en' && 
@@ -160,16 +160,30 @@ export default class Projects extends React.Component {
                                     </div>
                                 </FadeInSection>
                                     
-                                <FadeInSection>
+                                <FadeInSection direction="fade-right">
                                     <div className={styles.projectDescription}>
-                                        <p>{this.translate.eden2012ERP.generalDescription}</p>
+                                        <p className={styles.generalDescription}>{this.translate.eden2012ERP.generalDescription}</p>
+
                                         <h4>{this.translate.eden2012ERP.functionality.title}</h4>
+
                                         <ul className={styles.projectDescriptionList}>
                                             <li>{this.translate.eden2012ERP.functionality.point1}</li>
                                             <li>{this.translate.eden2012ERP.functionality.point2}</li>
                                             <li>{this.translate.eden2012ERP.functionality.point3}</li>
                                             <li>{this.translate.eden2012ERP.functionality.point4}</li>
                                             <li>{this.translate.eden2012ERP.functionality.point5}</li>
+                                        </ul>
+                                        
+                                        <p className={styles.arcitecturalDescription}>{this.translate.eden2012ERP.architecturalDescription}</p>
+
+                                        <h4>{this.translate.eden2012ERP.technologies.title}</h4>
+
+                                        <ul className={styles.projectTecnologiesList}>
+                                            <li>{this.translate.eden2012ERP.technologies.point1}</li>
+                                            <li>{this.translate.eden2012ERP.technologies.point2}</li>
+                                            <li>{this.translate.eden2012ERP.technologies.point3}</li>
+                                            <li>{this.translate.eden2012ERP.technologies.point4}</li>
+                                            <li>{this.translate.eden2012ERP.technologies.point5}</li>
                                         </ul>
                                     </div>
                                 </FadeInSection>

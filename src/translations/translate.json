@@ -62,9 +62,18 @@
                 "point1": "Керування полями за допомогою CRUD операцій (створення, читання, оновлення, видалення)",
                 "point2": "Планування посівних кампаній та збереження історії сезонів для подальшого аналізу.",
                 "point3": "Генерація PDF звітів для кожного сезону.",
-                "point4": "Аналіз прибутковості та врожайності кожного сезону за допомогою графіків.",
+                "point4": "Аналіз прибутковості та врожайності за допомогою графіків.",
                 "point5": "Керування доступом на основі ролей (RBAC)."
-            }
+            },
+            "architecturalDescription": "Система побудована за принципами Clean Architecture, що забезпечує чітке розділення обов'язків через виділені шари для домену, сервісів застосунків та інфраструктури (репозиторії).",
+            "technologies": {
+                "title": "Технології, які використовувались",
+                "point1": "React 18",
+                "point2": "Material UI",
+                "point3": "ASP.NET WEB API Core (.NET 8)",
+                "point4": "MSSQL Server",
+                "point5": "SignalR"
+             }
         }
     },
     "en": {
@@ -130,9 +139,18 @@
                 "point1": "Managing fields using CRUD operations (create, read, update, delete)",
                 "point2": "Planning sowing campaigns and saving season history for further analysis.",
                 "point3": "Generating PDF reports for each season.",
-                "point4": "Analyzing profitability and yield of each season using charts.",
+                "point4": "Analyzing profitability and yield using charts.",
                 "point5": "Role-based access control (RBAC)."
-            }
+            },
+            "architecturalDescription": "The system is built following Clean Architecture principles, ensuring strict separation of concerns through dedicated layers for Domain, Application Services, and Infrastructure (Repositories).",
+            "technologies": {
+                "title": "Technologies used",
+                "point1": "React 18",
+                "point2": "Material UI",
+                "point3": "ASP.NET WEB API Core (.NET 8)",
+                "point4": "MSSQL Server",
+                "point5": "SignalR"
+             }
         }
     }
 }
