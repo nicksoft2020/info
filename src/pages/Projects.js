@@ -44,43 +44,6 @@ export default class Projects extends React.Component {
                     <div className='project-block'>
                         <FadeInSection>
                             <div className='project-title'>
-                                {this.translate.eden2012WebsiteBusinessCard}
-                            </div>
-                            <div className="project-content">
-                                <div className='project-video'>
-                                    { 
-                                        this.state.language === 'en' && 
-                                        <iframe className="video-file" 
-                                            src="https://www.youtube.com/embed/H5iFAlNlYL0?si=jhez1jkJMTYfbrNU" 
-                                            title="YouTube video player" 
-                                            frameBorder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                            referrerPolicy="strict-origin-when-cross-origin" 
-                                            allowFullScreen
-                                        ></iframe>
-                                    }
-
-                                    { 
-                                        this.state.language === 'ua' && 
-                                        <iframe className="video-file" 
-                                            src="https://www.youtube.com/embed/9xMh28EJlz0?si=q3iR--OXkPzSlLqj" 
-                                            title="YouTube video player" 
-                                            frameBorder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                            referrerPolicy="strict-origin-when-cross-origin" 
-                                            allowFullScreen
-                                        ></iframe>
-                                    }
-                                </div>
-                                <div className='project-description'>
-                                    <p>{this.translate.eden2012WebsiteBusinessCardDescription}</p>
-                                </div>
-                            </div>
-                        </FadeInSection>
-                    </div>
-                    <div className='project-block'>
-                        <FadeInSection>
-                            <div className='project-title'>
                                 {this.translate.eden2012Management}
                             </div>
                             <div className="project-content">
@@ -115,6 +78,7 @@ export default class Projects extends React.Component {
                             </div>
                         </FadeInSection>
                     </div>
+                    
                     <div className='project-block'>
                         <FadeInSection>
                             <div className='project-title'>
@@ -148,6 +112,44 @@ export default class Projects extends React.Component {
                                 </div>
                                 <div className='project-description'>
                                     <p>{this.translate.justMusicDescription} <a className="project-link" href="https://play.google.com/store/apps/details?id=com.anonymous.JustMusic&pli=1" target="_blank">Google play market</a>.</p>
+                                </div>
+                            </div>
+                        </FadeInSection>
+                    </div>
+
+                    <div className='project-block'>
+                        <FadeInSection>
+                            <div className='project-title'>
+                                {this.translate.eden2012WebsiteBusinessCard}
+                            </div>
+                            <div className="project-content">
+                                <div className='project-video'>
+                                    { 
+                                        this.state.language === 'en' && 
+                                        <iframe className="video-file" 
+                                            src="https://www.youtube.com/embed/H5iFAlNlYL0?si=jhez1jkJMTYfbrNU" 
+                                            title="YouTube video player" 
+                                            frameBorder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerPolicy="strict-origin-when-cross-origin" 
+                                            allowFullScreen
+                                        ></iframe>
+                                    }
+
+                                    { 
+                                        this.state.language === 'ua' && 
+                                        <iframe className="video-file" 
+                                            src="https://www.youtube.com/embed/9xMh28EJlz0?si=q3iR--OXkPzSlLqj" 
+                                            title="YouTube video player" 
+                                            frameBorder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerPolicy="strict-origin-when-cross-origin" 
+                                            allowFullScreen
+                                        ></iframe>
+                                    }
+                                </div>
+                                <div className='project-description'>
+                                    <p>{this.translate.eden2012WebsiteBusinessCardDescription}</p>
                                 </div>
                             </div>
                         </FadeInSection>
