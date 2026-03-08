@@ -1,0 +1,76 @@
+.aboutSection,
+.aboutSectionCeo {
+	height: fit-content;
+	width: 80%;
+	padding: 50px 10% 80px;
+}
+
+.aboutSection {
+	color: white;
+	background-color: var(--main-color);
+}
+
+.aboutSectionCeo {
+	background-color: white;
+	color: var(--main-color);
+}
+
+.aboutTitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 35px;
+}
+
+.aboutDescription {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fadeText {
+	animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-webkit-animation: fadein 2s;
+	-o-animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

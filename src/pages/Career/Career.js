@@ -1,5 +1,6 @@
 import FadeInSection from "../../components/FadeInSection";
 import { useEffect } from 'react';
+import styles from './Career.module.css';
 
 function Career(props) {
     const translate = props.content;
@@ -10,26 +11,26 @@ function Career(props) {
 
     return (
         <div>
-            <div id="about" className="about-section">
+            <div id="about" className={styles.aboutSection}>
                 <FadeInSection>
-                    <div className="about-title">{translate.careerPage.title}</div>
-                    <p className="about-description fade-text">
+                    <div className={styles.aboutTitle}>{translate.careerPage.title}</div>
+                    <p className={`${styles.aboutDescription} ${styles.fadeText}`}>
                         {translate.careerPage.about1}      
                     </p>
-                    <p className="about-description fade-text">
+                    <p className={`${styles.aboutDescription} ${styles.fadeText}`}>
                         {translate.careerPage.about2}
                     </p>
-                    <p className="about-description fade-text">
+                    <p className={`${styles.aboutDescription} ${styles.fadeText}`}>
                         {translate.careerPage.about3}
                     </p>
-                    <p className="about-description fade-text">
+                    <p className={`${styles.aboutDescription} ${styles.fadeText}`}>
                         {translate.careerPage.about4}
                     </p>
                 </FadeInSection>
             </div>
-            <div id="about" className="about-section-ceo">
+            <div id="about" className={styles.aboutSectionCeo}>
                 <FadeInSection direction="fade-bottom">
-                    <p className="about-description fade-text">
+                    <p className={`${styles.aboutDescription} ${styles.fadeText}`}>
                         {translate.careerPage.aboutCEO}      
                     </p>
                 </FadeInSection>
