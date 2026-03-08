@@ -48,8 +48,6 @@
         "emailSentError": "Помилка на сервері. Будь ласка спробуйте пізніше",
         "eden2012WebsiteBusinessCard": "Eden 2012 (сайт-візитка)",
         "eden2012WebsiteBusinessCardDescription": "Звичайний сайт-візитка для фермерського господарства Eden 2012 із описом бізнесу та контактною інформацією.",
-        "justMusic": "Just music",
-        "justMusicDescription": "Простий та безкоштовний аудіоплеєр без реклами для прослуховування музики з мобільного пристрою. Якщо ви не хочете слухати деякі аудіофайли, наприклад файли диктофона, вам слід скористатися функцією ігнорування. Ви можете відкрити сторінку налаштувань, щоб вибрати тему, мову та швидкість відтворення.",
         "mobileServiceTitle": "Розробка мобільних застосунків",
         "mobileServiceDescription": "Вам потрібен мобільний застосунок? Для розробки програм під смартфони ми використовуємо React Native технологію та бібліотеку React Native Paper. Ці інструменти дають можливість реалізовувати мобільні застосунки із сучасним дизайном та швидким функціоналом.",
         "error404": "Сторінка, яку ви шукали, могла бути видалена через зміну назви або тимчасову недоступність.",
@@ -74,6 +72,28 @@
                 "point4": "MSSQL Server",
                 "point5": "SignalR"
              }
+        },
+        "justMusicMobile": {
+            "title": "Just music (мобільний застосунок)",
+            "generalDescription": "Простий та безкоштовний аудіоплеєр для прослуховування музики з вашого мобільного пристрою. Дає можливість сортувати аудіофайли, створювати для них списки відтворення та ігнорувати записи диктофону.",
+            "functionality": {
+                "title": "Основний функціонал",
+                "point1": "Функція ігнорування файлів допомагає ізолювати їх від решти музики (наприклад записи диктофону)",
+                "point2": "Відтворення музики із різною швидкістю.",
+                "point3": "Функціонал списків відтворення для зручного прослуховування музики.",
+                "point4": "Сортування аудіофайлів за допомогою кількості прослуховувань та по назві.",
+                "point5": "Локалізація на 10 мов.",
+                "point6": "Підтримка тем різних кольорів, включаючи варіанти темної та світлої."
+            },
+            "technologies": {
+                "title": "Технології, які використовувались",
+                "point1": "React 18",
+                "point2": "Expo",
+                "point3": "Expo media",
+                "point4": "React Native",
+                "point5": "React Native Paper",
+                "point6": "React Native track player"
+            }
         }
     },
     "en": {
@@ -125,8 +145,6 @@
         "eden2012WebsiteBusinessCard": "Eden 2012 (business card website)",
         "link": "link",
         "eden2012WebsiteBusinessCardDescription": "The original business card website for the farming business of Eden 2012 with a description and contact information.",
-        "justMusic": "Just music",
-        "justMusicDescription": "Simple and free ad-free audio player for listening to music from your mobile device. If you don't want to listen to some audio files, such as voice recorder files, you should use the ignore function. You can open the settings page to select the theme, language and playback speed.",
         "mobileServiceTitle": "Mobile applications development",
         "mobileServiceDescription": "Do you need a mobile app? We use React Native technology and the React Native Paper library to develop apps for smartphones. These tools make it possible to implement mobile applications with modern design and fast functionality.",
         "error404": "The page you were looking for might have been removed had it's name changed or temporary unavailable.",
@@ -151,6 +169,28 @@
                 "point4": "MSSQL Server",
                 "point5": "SignalR"
              }
+        },
+        "justMusicMobile": {
+            "title": "Just music (mobile application)",
+            "generalDescription": "A simple and free audio player for listening to music from your mobile device. Allows you to sort audio files, create playlists for them, and ignore voice recorder files.",
+            "functionality": {
+                "title": "Basic functionality",
+                "point1": "The file ignore feature helps isolate them from the rest of the music (e.g., voice recorder files)",
+                "point2": "Playback of music at different speeds.",
+                "point3": "Playlist functionality for convenient music listening.",
+                "point4": "Sorting audio files by play count and by name.",
+                "point5": "Localization in 10 languages.",
+                "point6": "Support for themes of different colors, including dark and light theme options."
+            },
+            "technologies": {
+                "title": "Technologies used",
+                "point1": "React 18",
+                "point2": "Expo",
+                "point3": "Expo media",
+                "point4": "React Native",
+                "point5": "React Native Paper",
+                "point6": "React Native track player"
+            }
         }
     }
 }

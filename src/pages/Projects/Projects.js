@@ -52,7 +52,7 @@ export default class Projects extends React.Component {
                                 <div className='project-video'>
                                     { 
                                         this.state.language === 'en' && 
-                                        <iframe className="video-file" 
+                                        <iframe className={styles.videoFile}
                                             src="https://www.youtube.com/embed/DYemWhmI0CU?si=Mvdsq-rYzxbdSZGT" 
                                             title="YouTube video player" 
                                             frameBorder="0" 
@@ -64,7 +64,7 @@ export default class Projects extends React.Component {
 
                                     { 
                                         this.state.language === 'ua' && 
-                                        <iframe className="video-file" 
+                                        <iframe className={styles.videoFile}
                                             src="https://www.youtube.com/embed/wSMWlNoiCkQ?si=HN3bGO5-RLSSqUvO" 
                                             title="YouTube video player" 
                                             frameBorder="0" 
@@ -90,7 +90,7 @@ export default class Projects extends React.Component {
                                 <div className='project-video'>
                                     { 
                                         this.state.language === 'en' && 
-                                        <iframe className="video-file" 
+                                        <iframe className={styles.videoFile}
                                             src="https://www.youtube.com/embed/H5iFAlNlYL0?si=jhez1jkJMTYfbrNU" 
                                             title="YouTube video player" 
                                             frameBorder="0" 
@@ -102,7 +102,7 @@ export default class Projects extends React.Component {
 
                                     { 
                                         this.state.language === 'ua' && 
-                                        <iframe className="video-file" 
+                                        <iframe className={styles.videoFile}
                                             src="https://www.youtube.com/embed/9xMh28EJlz0?si=q3iR--OXkPzSlLqj" 
                                             title="YouTube video player" 
                                             frameBorder="0" 
@@ -191,7 +191,73 @@ export default class Projects extends React.Component {
                         </div>
                     </div>
                     
-                    
+                    <div className={`${styles.projectSection} ${styles.lightBackground}`}>
+                        <div className={styles.projectBlock}>
+                            <FadeInSection direction="fade-bottom">
+                                <div className={styles.projectTitle}>
+                                    {this.translate.justMusicMobile.title}
+                                </div>
+                            </FadeInSection>
+
+                            <div className={styles.projectContent}>
+                                <FadeInSection direction="fade-left">
+                                    <div className={styles.projectVideo}>
+                                        { 
+                                            this.state.language === 'en' && 
+                                            <iframe className={styles.videoFile}
+                                                src="https://www.youtube.com/embed/DYemWhmI0CU?si=Mvdsq-rYzxbdSZGT" 
+                                                title="YouTube video player" 
+                                                frameBorder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                referrerPolicy="strict-origin-when-cross-origin" 
+                                                allowFullScreen
+                                            ></iframe>
+                                        }
+
+                                        { 
+                                            this.state.language === 'ua' && 
+                                            <iframe className={styles.videoFile}
+                                                src="https://www.youtube.com/embed/wSMWlNoiCkQ?si=HN3bGO5-RLSSqUvO" 
+                                                title="YouTube video player" 
+                                                frameBorder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                referrerPolicy="strict-origin-when-cross-origin" 
+                                                allowFullScreen
+                                            ></iframe>
+                                        }
+                                    </div>
+                                </FadeInSection>
+                                    
+                                <FadeInSection direction="fade-right">
+                                    <div className={styles.projectDescription}>
+                                        <p className={styles.generalDescription}>{this.translate.justMusicMobile.generalDescription}</p>
+
+                                        <h4>{this.translate.justMusicMobile.functionality.title}</h4>
+
+                                        <ul className={styles.projectDescriptionList}>
+                                            <li>{this.translate.justMusicMobile.functionality.point1}</li>
+                                            <li>{this.translate.justMusicMobile.functionality.point2}</li>
+                                            <li>{this.translate.justMusicMobile.functionality.point3}</li>
+                                            <li>{this.translate.justMusicMobile.functionality.point4}</li>
+                                            <li>{this.translate.justMusicMobile.functionality.point5}</li>
+                                            <li>{this.translate.justMusicMobile.functionality.point6}</li>
+                                        </ul>
+
+                                        <h4 className={`${styles.marginTop10}`}>{this.translate.justMusicMobile.technologies.title}</h4>
+
+                                        <ul className={`${styles.projectTecnologiesList}`}>
+                                            <li>{this.translate.justMusicMobile.technologies.point1}</li>
+                                            <li>{this.translate.justMusicMobile.technologies.point2}</li>
+                                            <li>{this.translate.justMusicMobile.technologies.point3}</li>
+                                            <li>{this.translate.justMusicMobile.technologies.point4}</li>
+                                            <li>{this.translate.justMusicMobile.technologies.point5}</li>
+                                            <li>{this.translate.justMusicMobile.technologies.point6}</li>
+                                        </ul>
+                                    </div>
+                                </FadeInSection>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
             </div>

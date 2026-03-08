@@ -24,6 +24,15 @@
 	background-color: var(--main-color);
 }
 
+.lightBackground {
+	color: var(--main-color) !important;
+	background-color: #fcfcfc;
+}
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
 .projectBlock {
 	width: 80vw;
 }
