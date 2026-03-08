@@ -1,4 +1,10 @@
-.projects-list {
+:root {
+	--main-color: #6366F1;
+	--hover-color: rgb(53, 53, 209);
+	--error-color: rgb(219, 27, 27);
+}
+
+.projectList {
 	margin: 0px auto;
 	padding-bottom: 50px;
 	display: flex;
@@ -6,15 +12,29 @@
 	height: fit-content !important;
 }
 
-.projects-title {
-	margin-top: 25px;
-	font-size: 20px;
-	color: var(--main-color);
+.projectSection {
+	margin: auto !important;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
 }
 
-.project-content {
+.primaryBackground {
+	color: white !important;
+	background-color: var(--main-color);
+}
+
+.projectBlock {
+	width: 80vw;
+}
+
+.projectTitle {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.projectContent {
 	display: flex;
-	color: var(--main-color);
 	border-radius: 10px;
 	padding: 10px;
 	font-size: 14px;
@@ -22,26 +42,20 @@
 	min-height: 220px;
 }
 
-.project-title {
-	color: var(--main-color);
-	margin-top: 10px;
-	font-size: 18px;
-}
-
-.project-video {
+.projectVideo {
 	width: 40vw;
 }
 
-.project-description {
+.projectDescription {
 	text-align: start;
 	text-indent: 10px;
 }
 
-.project-link {
+.projectLink {
 	font-weight: 600;
 }
 
-.video-file {
+.videoFile {
 	height: fit-content;
 	width: inherit;
 	height: 400px;
@@ -50,56 +64,50 @@
 }
 
 @media(min-width: 1070px) {
-	.projects-list {
+	.projectList {
 		height: 200px;
 	}
 }
 
 @media(max-width: 1070px) {
-	.projects-list {
+	.projectList {
 		display: flex;
 		flex-direction: column;
 		width: inherit;
 		height: 600px;
 	}
 
-	.project-block {
-		margin: auto !important;
-		width: inherit;
-		max-width: 300px;
-	}
-
-	.video-file {
+	.videoFile {
 		width: 280px;
 	}
 
-	.project-content {
+	.projectContent {
 		flex-direction: column;
 	}
 }
 
 @media(min-width: 700px) {
-	.project-description {
+	.projectDescription {
 		padding-left: 10px;
 	}
 }
 
 @media(max-width: 700px) {
-	.video-file {
+	.videoFile {
 		width: 280px;
 	}
 
-	.project-content {
+	.projectContent {
 		flex-direction: column;
 	}
 }
 
 @media(max-width: 500px) {
-	.project-block {
+	.projectBlock {
 		padding-bottom: 15px;
 	}
 
-	.projects-list {
+	.projectList {
 		margin-top: 20px;
 		height: fit-content;
 	}

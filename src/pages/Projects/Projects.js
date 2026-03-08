@@ -1,5 +1,6 @@
 import React from "react";
 import FadeInSection from "../../components/FadeInSection";
+import styles from "./Projects.module.css";
 
 export default class Projects extends React.Component {
     language;
@@ -121,50 +122,53 @@ export default class Projects extends React.Component {
         return (
             <div>
                
-                <div className='projects-list'>
-                    <div className='project-block primary-background'>
-                        <FadeInSection>
-                            <div className='project-title'>
-                                {this.translate.eden2012Management}
-                            </div>
-                        </FadeInSection>
-                        
-                        <div className="project-content">
+                <div className={styles.projectList}>
+                    <div className={`${styles.projectSection} ${styles.primaryBackground}`}>
+                        <div className={styles.projectBlock}>
                             <FadeInSection>
-                                <div className='project-video'>
-                                    { 
-                                        this.state.language === 'en' && 
-                                        <iframe className="video-file" 
-                                            src="https://www.youtube.com/embed/U5umz6aDpPI?si=muxYylurSIm7nluC" 
-                                            title="YouTube video player" 
-                                            frameBorder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                            referrerPolicy="strict-origin-when-cross-origin" 
-                                            allowFullScreen
-                                        ></iframe>
-                                    }
+                                <div className={styles.projectTitle}>
+                                    {this.translate.eden2012ERP.title}
+                                </div>
+                            </FadeInSection>
 
-                                    { 
-                                        this.state.language === 'ua' && 
-                                        <iframe className="video-file" 
-                                            src="https://www.youtube.com/embed/om3HByi2KPo?si=kb9-Tngurk5BE9ra" 
-                                            title="YouTube video player" 
-                                            frameBorder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                            referrerPolicy="strict-origin-when-cross-origin" 
-                                            allowFullScreen
-                                        ></iframe>
-                                    }
-                                </div>
-                            </FadeInSection>
-                            
-                            <FadeInSection>
-                                <div className='project-description'>
-                                    <p>{this.translate.eden2012ManagementDescription}</p>
-                                </div>
-                            </FadeInSection>
+                            <div className={styles.projectContent}>
+                                <FadeInSection>
+                                    <div className={styles.projectVideo}>
+                                        { 
+                                            this.state.language === 'en' && 
+                                            <iframe className={styles.videoFile}
+                                                src="https://www.youtube.com/embed/U5umz6aDpPI?si=muxYylurSIm7nluC" 
+                                                title="YouTube video player" 
+                                                frameBorder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                referrerPolicy="strict-origin-when-cross-origin" 
+                                                allowFullScreen
+                                            ></iframe>
+                                        }
+
+                                          { 
+                                            this.state.language === 'ua' && 
+                                            <iframe className={styles.videoFile}
+                                                src="https://www.youtube.com/embed/om3HByi2KPo?si=kb9-Tngurk5BE9ra" 
+                                                title="YouTube video player" 
+                                                frameBorder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                referrerPolicy="strict-origin-when-cross-origin" 
+                                                allowFullScreen
+                                            ></iframe>
+                                        }
+                                    </div>
+                                </FadeInSection>
+                                    
+                                <FadeInSection>
+                                    <div className={styles.projectDescription}>
+                                        <p>{this.translate.eden2012ERP.generalDescription}</p>
+                                    </div>
+                                </FadeInSection>
+                            </div>
                         </div>
                     </div>
+                    
                     
                     
                 </div>
