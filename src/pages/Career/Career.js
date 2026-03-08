@@ -1,7 +1,7 @@
-import FadeInSection from "../components/FadeInSection";
+import FadeInSection from "../../components/FadeInSection";
 import { useEffect } from 'react';
 
-function About(props) {
+function Career(props) {
     const translate = props.content;
 
     useEffect(() => {
@@ -38,4 +38,4 @@ function About(props) {
     )
 }
 
-export default About;
+export default Career;

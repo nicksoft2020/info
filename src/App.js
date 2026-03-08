@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
-import About from './pages/About';
+import Career from './pages/Career/Career';
 import FourOhFour from './pages/FourOhFour';
 import Contacts from './pages/Contacts';
 import Translate from './translations/translate.json';
@@ -30,7 +30,7 @@ class App extends React.Component {
 				<div className='wrapper'>
 					<Routes>
 						<Route path="/" element={<Home content={this.state.content} />} />
-						<Route path="/about" element={<About content={this.state.content} />} />
+						<Route path="/career" element={<Career content={this.state.content} />} />
 						<Route exact path='*' element={<FourOhFour content={this.state.content} />}></Route>
 						<Route path="/projects" element={<Projects content={this.state.content} />} />
 					</Routes>
