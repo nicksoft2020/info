@@ -33,6 +33,21 @@
 	font-size: 24px;
 }
 
+.projectDescription {
+	text-align: start;
+	text-indent: 10px;
+	font-size: 16px;
+}
+
+.projectDescriptionList {
+  	list-style-type: decimal; /* Use 'circle' or 'square' for different styles */
+	margin-left: 30px;
+}
+
+.projectDescriptionList li::marker {
+    font-size: 16px; /* Adjust the value (e.g., px, em, %) to your preference */
+}
+
 .projectContent {
 	display: flex;
 	border-radius: 10px;
@@ -44,11 +59,6 @@
 
 .projectVideo {
 	width: 40vw;
-}
-
-.projectDescription {
-	text-align: start;
-	text-indent: 10px;
 }
 
 .projectLink {

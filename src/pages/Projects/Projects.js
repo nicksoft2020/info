@@ -163,6 +163,14 @@ export default class Projects extends React.Component {
                                 <FadeInSection>
                                     <div className={styles.projectDescription}>
                                         <p>{this.translate.eden2012ERP.generalDescription}</p>
+                                        <h4>{this.translate.eden2012ERP.functionality.title}</h4>
+                                        <ul className={styles.projectDescriptionList}>
+                                            <li>{this.translate.eden2012ERP.functionality.point1}</li>
+                                            <li>{this.translate.eden2012ERP.functionality.point2}</li>
+                                            <li>{this.translate.eden2012ERP.functionality.point3}</li>
+                                            <li>{this.translate.eden2012ERP.functionality.point4}</li>
+                                            <li>{this.translate.eden2012ERP.functionality.point5}</li>
+                                        </ul>
                                     </div>
                                 </FadeInSection>
                             </div>
